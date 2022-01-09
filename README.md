@@ -8,8 +8,7 @@ Backend to demonstrate the functionality and interactivity with a frontend to co
 
 - Ruby
 - Rails
-- HTML & CSS
-- React & Redux
+- PostgreSQL
 
 ## Getting Started
 
