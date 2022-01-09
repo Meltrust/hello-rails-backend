@@ -1,24 +1,64 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello rails backend
 
-Things you may want to cover:
+Backend to demonstrate the functionality and interactivity with a frontend to consume it. 
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails
+- HTML & CSS
+- React & Redux
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+Have installed Ruby and Rails in your machine
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+clone this repo with:
 
-* ...
+``` ruby
+git clone https://github.com/Meltrust/hello-rails-backend.git
+```
+
+### Install
+
+``` ruby
+run `bundle install`
+run `npm install`
+```
+
+- In your terminal input `rails server`
+- Visit http://127.0.0.1:3000/api/v1/greetings/index
+
+## Author
+
+👤 **Miguel Tapia**
+
+- Github: [@meltrust](https://github.com/meltrust)
+- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
+- Or talk to me directly at: original.mtapia@outlook.com
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/eri8-9/hello_rails/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org/)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
