@@ -40,6 +40,8 @@ run `npm install`
 
 - In your terminal input 
 ```ruby
+rails db:create
+rails db:seed
 rails db:migrate
 rails server -p 3001
 ```
