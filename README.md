@@ -2,7 +2,11 @@
 
 # Hello rails backend
 
+![image](https://user-images.githubusercontent.com/57421823/148772553-3e248246-90fc-4abf-908d-cc7da20a9525.png)
+
 Backend to demonstrate the functionality and interactivity with a frontend to consume it. 
+
+
 
 ## Built With
 
@@ -33,8 +37,10 @@ run `bundle install`
 run `npm install`
 ```
 
-- In your terminal input `rails server`
-- Visit http://127.0.0.1:3000/api/v1/greetings/index
+- In your terminal input `rails server -p 3001`
+- To test the API directly, visit http://127.0.0.1:3001/api/v1/greetings/index
+- To consume the API with a React app, visit [this repo](https://github.com/Meltrust/hello-rails-front-end/tree/front-end) and follow instructions.
+- The server from this repo must be running in order for the React app to work correctly.
 
 ## Author
 
