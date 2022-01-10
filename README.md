@@ -20,7 +20,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Have installed Ruby and Rails in your machine
+- Ruby and PosgreSQL must be installed.
+- PostgreSQL server must be running.
 
 ### Setup
 
@@ -37,7 +38,12 @@ run `bundle install`
 run `npm install`
 ```
 
-- In your terminal input `rails server -p 3001`
+- In your terminal input 
+```ruby
+rails db:migrate
+rails server -p 3001
+```
+
 - To test the API directly, visit http://127.0.0.1:3001/api/v1/greetings/index
 - To consume the API with a React app, visit [this repo](https://github.com/Meltrust/hello-rails-front-end/tree/front-end) and follow instructions.
 - The server from this repo must be running in order for the React app to work correctly.
