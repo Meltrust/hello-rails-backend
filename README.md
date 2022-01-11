@@ -39,6 +39,7 @@ run `npm install`
 ```
 
 - In your terminal input 
+
 ```ruby
 rails db:create
 rails db:seed
@@ -62,7 +63,7 @@ rails server -p 3001
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/eri8-9/hello_rails/issues).
+Feel free to check the [issues page](https://github.com/Meltrust/hello-rails-backend/issues).
 
 ## Show your support
 
